@@ -1,0 +1,25 @@
+.dra-crt{
+    width: 150px;
+    height: 500px;
+}
+.brd{
+    border-bottom: 1px solid #b3b3b3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.brd:active{
+    border-left: 5px solid;
+    .title{
+        font-size: 15px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+}
+.title{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 15px;
+}
