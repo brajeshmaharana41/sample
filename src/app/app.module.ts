@@ -46,9 +46,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { TutorComponent } from './tutor/tutor.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatCardModule} from '@angular/material/card';
-import { CreateTiuterComponent } from './tutor/create-tiuter/create-tiuter.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { CourseDetailsComponent } from './tutor/course-details/course-details.component';
+import { IntendLearnComponent } from './tutor/intend-learn/intend-learn.component';
+import { DateTimeComponent } from './tutor/date-time/date-time.component';
+import { PriceComponent } from './tutor/price/price.component';
+import { CurriculamComponent } from './tutor/curriculam/curriculam.component';
 
 @NgModule({
   declarations: [
@@ -89,8 +92,11 @@ import { CourseDetailsComponent } from './tutor/course-details/course-details.co
     PaginationComponent,
     PageNotFoundComponent,
     TutorComponent,
-    CreateTiuterComponent,
     CourseDetailsComponent,
+    IntendLearnComponent,
+    DateTimeComponent,
+    PriceComponent,
+    CurriculamComponent,
   ],
   imports: [
     BrowserModule,

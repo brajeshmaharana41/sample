@@ -1,25 +1,27 @@
 .dra-crt{
-    width: 150px;
-    height: 500px;
+    width: 250px;
+    // height: 500px;
+    background: linear-gradient(to top, #fe9958, #fb6832);
 }
 .brd{
     border-bottom: 1px solid #b3b3b3;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
-.brd:active{
+.brd.active{
     border-left: 5px solid;
     .title{
-        font-size: 15px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 500;
         padding-top: 10px;
         padding-left: 15px;
     }
 }
 .title{
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 10px;
     padding-left: 15px;
+    color: #ffffff;
 }

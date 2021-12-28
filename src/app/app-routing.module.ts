@@ -16,8 +16,11 @@ import { TermsConditionsComponent } from './home/pages/terms-conditions/terms-co
 import { TuitionComponent } from './home/pages/tuition/tuition.component';
 import { ViewAllComponent } from './home/pages/view-all/view-all.component';
 import { TutorComponent } from './tutor/tutor.component'
-import { CreateTiuterComponent } from './tutor/create-tiuter/create-tiuter.component'
 import { CourseDetailsComponent } from './tutor/course-details/course-details.component'
+import { CurriculamComponent } from './tutor/curriculam/curriculam.component'
+import { DateTimeComponent } from './tutor/date-time/date-time.component'
+import { IntendLearnComponent } from './tutor/intend-learn/intend-learn.component'
+import { PriceComponent } from './tutor/price/price.component'
 const routes: Routes = [
 	{ path: 'login', component: LoginComponent },
 	{ path: 'signup', component: SignupComponent },
@@ -36,8 +39,15 @@ const routes: Routes = [
 	{ path: '', component: HomepageComponent },
 	// { path: '**', component: PageNotFoundComponent },
 	{ path: 'tutor', component: TutorComponent },
-	{ path: 'create-tiuter', component: CreateTiuterComponent },
-	{ path: 'course-details', component: CourseDetailsComponent }
+	{ path: 'course-details', component: CourseDetailsComponent },
+	{ path: 'curriculam', component: CurriculamComponent },
+
+	{ path: 'date-time', component: DateTimeComponent },
+
+	{ path: 'intend-learn', component: IntendLearnComponent },
+
+	{ path: 'price', component: PriceComponent },
+
 ];
 
 @NgModule({
