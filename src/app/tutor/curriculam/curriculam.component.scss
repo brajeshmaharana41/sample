@@ -6,7 +6,7 @@
 .brd{
     border-bottom: 1px solid #b3b3b3;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .brd.active{
@@ -15,8 +15,15 @@
         font-size: 18px;
         font-weight: 500;
         padding-top: 10px;
-        padding-left: 15px;
+        padding-left: 50px;
     }
+}
+.title{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #ffffff;
 }
 .title{
     font-size: 15px;

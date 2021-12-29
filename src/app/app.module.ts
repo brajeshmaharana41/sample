@@ -52,6 +52,10 @@ import { IntendLearnComponent } from './tutor/intend-learn/intend-learn.componen
 import { DateTimeComponent } from './tutor/date-time/date-time.component';
 import { PriceComponent } from './tutor/price/price.component';
 import { CurriculamComponent } from './tutor/curriculam/curriculam.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -106,6 +110,10 @@ import { CurriculamComponent } from './tutor/curriculam/curriculam.component';
     MatButtonModule,
     FlexLayoutModule,
     MatCardModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
     BrowserAnimationsModule,
     MatSidenavModule,
     NgbModule,
